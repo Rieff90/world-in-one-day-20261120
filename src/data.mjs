@@ -6,8 +6,8 @@
 export const DAY = {
   weekday: 'Friday',
   date: '20 November 2026',
-  stories: 26,
-  regions: 7,
+  stories: 15,
+  regions: 4,
 };
 
 export const STAND = [
@@ -21,7 +21,7 @@ export const LEADS = [
   {
     no: 1,
     kicker: 'ANTALYA · CLIMATE',
-    region: 'TURKEY',
+    region: 'EUROPE',
     title: '"Fossil fuels" vanish from the COP31 deal',
     body:
       'On the summit\'s last scheduled day the presidency published a revised draft that deleted every ' +
@@ -36,7 +36,7 @@ export const LEADS = [
   {
     no: 2,
     kicker: 'WASHINGTON · WAR',
-    region: 'UNITED STATES',
+    region: 'AMERICAS',
     title: 'Senate rejects the Iran war powers resolution, 51–48',
     body:
       'The first congressional vote on the war since the midterms failed, leaving the president\'s ' +
@@ -49,7 +49,7 @@ export const LEADS = [
   {
     no: 3,
     kicker: 'NEW YORK · MARKETS',
-    region: 'UNITED STATES',
+    region: 'AMERICAS',
     title: 'An AI-led rout takes the Nasdaq down 5.3%',
     body:
       'The tech index closed at 22,617 — its worst session in months — as the S&P 500 fell 3.7% to ' +
