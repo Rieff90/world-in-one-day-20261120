@@ -10,6 +10,7 @@ import { join } from 'node:path';
 import { tmpdir } from 'node:os';
 import { pathToFileURL } from 'node:url';
 import { DAY, STAND, LEADS, STORIES, TICKER, DATE_CHECK, PINS, TIMELINE, FOOTER } from './data.mjs';
+import { tally } from './regions.mjs';
 
 const CHROME =
   process.env.CHROME_PATH ?? 'C:/Program Files/Google/Chrome/Application/chrome.exe';
@@ -188,6 +189,12 @@ const html = `<!doctype html>
         <h4>The day, by the clock (UTC)</h4>
         <ul class="timeline">
           ${TIMELINE.map((t) => `<li><b>${esc(t.time)}</b><span>${esc(t.text)}</span></li>`).join('')}
+        </ul>
+      </div>
+      <div class="panel">
+        <h4>By region</h4>
+        <ul class="timeline">
+          ${tally(LEADS, STORIES).map((r) => `<li><b>${r.count}</b><span>${esc(r.name)} — ${esc(r.note)}</span></li>`).join('')}
         </ul>
       </div>
       <div class="check">
