@@ -110,8 +110,8 @@ const html = `<!doctype html>
   }
   .num.sm { width: 11px; height: 11px; font-size: 6.6px; background: #4a5a72; }
   .tag { margin-left: auto; font-size: 6px; letter-spacing: .07em; color: #7b6f59; font-weight: 600; }
-  .lead h2 { font-size: 17.5px; line-height: 1.06; letter-spacing: -.014em; margin-bottom: 3px; }
-  .lead p { font-size: 9.9px; line-height: 1.32; color: #24334b; }
+  .lead h2 { font-size: 18.6px; line-height: 1.06; letter-spacing: -.014em; margin-bottom: 3px; }
+  .lead p { font-size: 11px; line-height: 1.32; color: #24334b; }
   .src {
     font-family: "Segoe UI", Arial, sans-serif; font-size: 6px; letter-spacing: .04em;
     color: #7b6f59; margin-top: auto; padding-top: 3px; text-transform: uppercase;
@@ -120,13 +120,13 @@ const html = `<!doctype html>
   .grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px 16px; align-content: space-between; overflow: hidden; }
   .brief { border-top: 1px solid #b9ad95; padding-top: 2px; display: flex; flex-direction: column; }
   .brief-kicker {
-    font-family: "Segoe UI", Arial, sans-serif; font-size: 7.6px; font-weight: 700;
+    font-family: "Segoe UI", Arial, sans-serif; font-size: 8.8px; font-weight: 700;
     letter-spacing: .06em; text-transform: uppercase; color: #4a5a72;
     display: flex; align-items: center; gap: 4px; margin-bottom: 2px;
   }
-  .brief h3 { font-size: 14.2px; line-height: 1.09; letter-spacing: -.008em; margin-bottom: 2px; }
-  .brief p { font-size: 11.2px; line-height: 1.3; color: #33415a; }
-  .brief .src { font-size: 8px; padding-top: 4px; }
+  .brief h3 { font-size: 16.4px; line-height: 1.09; letter-spacing: -.008em; margin-bottom: 2px; }
+  .brief p { font-size: 13px; line-height: 1.28; color: #33415a; }
+  .brief .src { font-size: 9px; padding-top: 4px; }
   .rail { display: flex; flex-direction: column; gap: 8px; min-height: 0; }
   .panel { border: 1.5px solid #b9ad95; background: #efe7d7; padding: 5px 6px; }
   .panel h4 {
